@@ -34,7 +34,7 @@
               <span class="value">{{ currentRewards }}</span>
             </div>
             <div class="roobee">
-              <img src="/pics/roobee.png" alt="ROOBEE">
+              <img src="/pics/roobee.png" alt="MBASE">
             </div>
             <div class="reward">
               <span class="title">Total rewards</span>
