@@ -3,9 +3,9 @@
       <div class="info">
         <div class="container">
           <div class="title index-page__title">
-            <h1>Roobee Farm</h1>
+            <h1>MBASE Farm</h1>
             <div class="index-page__title-logo">
-              <img src="/pics/roobee-new-year.png" alt="Roobee Farm V2">
+              <img src="/pics/roobee-new-year.png" alt="MBASE Farm V2">
             </div>
           </div>
           <div class="balance">
@@ -16,7 +16,7 @@
             </div>
             <div class="balance__info">
               <div class="balance__icon">!</div>
-              <div class="balance__name">Pro Tip</div> - Check Roobee.Finance on <a href="https://bscscan.com/yieldfarms" target="_blank">https://bscscan.com/yieldfarms</a>
+              <div class="balance__name">Pro Tip</div> - Check Mallsbase on <a href="https://bscscan.com/yieldfarms" target="_blank">https://bscscan.com/yieldfarms</a>
             </div>
           </div>
         </div>
