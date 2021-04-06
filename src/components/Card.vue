@@ -18,8 +18,8 @@
     </div>
     <div class="card__footer">
       <div class="double">
-        <span class="title">Daily ROOBEE pool</span>
-        <span class="value">{{ dailyPool }} ROOBEE</span>
+        <span class="title">Daily MBASE pool</span>
+        <span class="value">{{ dailyPool }} MBASE</span>
       </div>
       <router-link :to="farmLink" class="start" :class="{finished}">{{ finished ? 'FINISHED' : 'START FARMING' }}</router-link>
     </div>
