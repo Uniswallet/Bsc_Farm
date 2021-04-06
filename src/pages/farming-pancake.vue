@@ -4,18 +4,18 @@
       <div class="info__image">
         <img src="../assets/images/cat.png" alt="">
       </div>
-      <div class="info__title">Roobee Farm</div>
+      <div class="info__title">MBASE Farm</div>
       <div class="farm-data farm-data__items">
         <div class="farm-data__item">
           <h2 class="title">Est. APY</h2>
           <span class="value">{{ toFixedTwo(apy) }} %</span>
         </div>
         <div class="farm-data__item">
-          <h2 class="title">Total LPs bROOBEE/BNB Staked</h2>
+          <h2 class="title">Total LPs MBASE/BNB Staked</h2>
           <span class="value">{{ toFixedTwo(roobeeFarmSupply / 1e18) }}</span>
         </div>
         <div class="farm-data__item">
-          <h2 class="title">Daily ROOBEE Pool Rewards</h2>
+          <h2 class="title">Daily MBASE Pool Rewards</h2>
           <span class="value">{{ numberWithSpaces(toFixedTwo(rewardPerBlock * 5760 * 15 / 1e18)) }}</span>
         </div>
       </div>
@@ -26,7 +26,7 @@
             <div class="balance__amount balance__amount--mb">
               {{ toFixedTwo(earned / 1e18) }}
             </div>
-            <div class="balance__title balance__title--mb">ROOBEE earned</div>
+            <div class="balance__title balance__title--mb">MBASE earned</div>
             <div class="balance__button">
               <button class="button button--blue button--small" @click="harvest">Harvest</button>
             </div>
@@ -35,10 +35,10 @@
             <div class="balance__amount balance__amount--mb">
               {{ toFixedTwo(roobeeFarmBalance / 1e18) }}
             </div>
-            <div class="balance__title balance__title--mb">bROOBEE-BNB LPs Token Staked</div>
+            <div class="balance__title balance__title--mb">MBASE-BNB LPs Token Staked</div>
             <transition name="fade" mode="out-in">
               <div class="balance__button" v-if="!isApproved" key="1">
-                <button class="button button--yellow button--small" @click="approve">Approve bROOBEE-BNB LPs</button>
+                <button class="button button--yellow button--small" @click="approve">Approve MBASE-BNB LPs</button>
               </div>
               <div class="balance__buttons" v-else key="2">
                 <button class="button button--mr button--yellow button--small button--mb" disabled>Deposit
@@ -50,7 +50,7 @@
         </div>
         <div class="balance__info">
           <div class="balance__icon">!</div>
-          <div class="balance__name">Pro Tip</div> - Add your Pancakeswap bROOBEE-BNB LPs liquidity provider tokens to farm ROOBEE
+          <div class="balance__name">Pro Tip</div> - Add your Pancakeswap MBASE-BNB LPs liquidity provider tokens to farm MBASE
         </div>
       </div>
     </div>
