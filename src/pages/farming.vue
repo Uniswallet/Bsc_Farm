@@ -4,7 +4,7 @@
       <div class="info__image">
         <img src="../assets/images/cat.png" alt="">
       </div>
-      <h1 class="farm-title">Roobee Farm on BurgerSwap</h1>
+      <h1 class="farm-title">MBASE Farm on BurgerSwap</h1>
       <div class="farm-data">
         <div class="farm-data__top">
           <div class="farm-data__top-side">
@@ -16,15 +16,15 @@
               <h2 class="title">{{ pair }}</h2>
               <div class="pair">
                 <div class="roobee">
-                  <img src="/pics/roobee.png" alt="ROOBEE">
+                  <img src="/pics/roobee.png" alt="MBASE">
                 </div>
                 <img :src="currencyIcon" :alt="pair" class="currency">
               </div>
             </div>
           </div>
           <div class="farm-data__top-side">
-            <h2 class="title">Daily bROOBEE Pool Rewards</h2>
-            <span class="value">25 000 bROOBEE</span>
+            <h2 class="title">Daily MBASE Pool Rewards</h2>
+            <span class="value">25 000 MBASE</span>
           </div>
         </div>
         <div class="farm-data__card">
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <h2 class="farm-label">Add Liquidity to <a :href="pairLink">{{ pair }} on BurgerSwap</a> pool to farm bROOBEE!</h2>
+      <h2 class="farm-label">Add Liquidity to <a :href="pairLink">{{ pair }} on BurgerSwap</a> pool to farm MBASE!</h2>
     </div>
   </div>
 </template>
@@ -95,9 +95,9 @@ export default {
 
     pairLink() {
       if (this.$route.name == 'farming burger')
-        return 'https://burgerswap.org/?type=1&from=BURGER&to=bROOBEE'
+        return 'https://burgerswap.org/?type=1&from=MBASE&to=MBASE'
       else if (this.$route.name == 'farming bnb')
-        return 'https://burgerswap.org/?type=1&from=BNB&to=bROOBEE'
+        return 'https://burgerswap.org/?type=1&from=BNB&to=MBASE'
 
       return ''
     },
